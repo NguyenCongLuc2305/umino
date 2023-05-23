@@ -241,12 +241,15 @@
 }
 .pxl-footer-payment{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .pxl-footer-payment .img-payment{
     background-color: #fff;
     border: 1px solid #DEDEDE;
     border-radius: 3px;
     transition: all .3s ease;
+    margin: 5px 0 5px 0;
 }
 .pxl-footer-payment .img-payment:hover{
     transform: translateY(-5px);

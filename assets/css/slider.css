@@ -79,11 +79,11 @@
         left: 30px;
     }
 }
-@media (max-width: 767px) {
+/* @media (max-width: 767px) {
     .prev, .next {
         display: none;
     }
-}
+} */
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
@@ -149,7 +149,7 @@
         font-size: 50px;
     }
 }
-@media (max-width: 400px) {
+@media (max-width: 575px) {
     .pxl-content-slide .pxl-title-slide {
         font-size: 30px;
     }
