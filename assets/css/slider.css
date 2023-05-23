@@ -122,6 +122,7 @@
     line-height: 18px;
     text-transform: uppercase;
     color: #fff;
+    letter-spacing: 0.1em;
 }
 .pxl-content-slide .pxl-title-slide {
     font-size: 90px;

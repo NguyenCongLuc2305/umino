@@ -47,14 +47,16 @@
     font-weight: 600;
     text-transform: uppercase;
 }   
-.pxl-newsletter .tnp-field-button .tnp-button:hover {
-    
-}  
+
 
 /* Footer middle */
 .pxl-footer-middle .pxl-image-logo img {
     max-width: 165px;
 }
+.pxl-footer-middle .pxl-image-logo .logo-footer {
+    max-width: 93px;
+}
+
 .pxl-footer-middle .pxl-address {
     margin-top: 29px;
 }
@@ -65,7 +67,7 @@
     margin-top: 10px;
 }
 .pxl-footer-middle .pxl-icon {
-    margin-top: 34px;
+    margin-top: 29px;
 }
 .pxl-footer-middle .pxl-icon a {
     width: 30px;
@@ -99,6 +101,7 @@
     font-family: 'GeneralSans-Semibold';
     margin-bottom: 29px;
 }
+
 .pxl-list-menu li {
     margin-bottom: 19px;
 }
@@ -107,19 +110,12 @@
 }
 .pxl-list-menu li a {
     position: relative;
+    transition: all .3s ease;
 }
-.pxl-list-menu li a:before {
-    position: absolute;
-    content: '';
-    width: 0;
-    height: 1px;
-    bottom: -1px;
-    left: 0;
-    background-color: #111;
-    transition: all 0.22s cubic-bezier(0.645,0.045,0.355,1);
-}
-.pxl-list-menu li a:hover:before {
+.pxl-list-menu li a:hover {
     width: 100%;
+    color: #111111;
+    margin-left: 10px;
 }
 .pxl-description {
     margin-top: -4px;
