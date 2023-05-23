@@ -128,7 +128,8 @@
     line-height: 1.2;
     margin: 20px auto 25px;
     width: 800px;
-    color: #fff;
+    /* color: #fff; */
+    color: yellow;
 }
 .pxl-content-slide .pxl-description {
     font-size: 16px;
