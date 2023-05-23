@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Umino - Demo</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="assets/fontawesome-free-6.0.0-web/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/general-sans.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/header.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/footer.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/slider.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+</head>
+<body>
+	<!-- Header -->
+	<header>
+		<div id="site-header-wrap" class="header-layout">
+			<div id="site-header" class="site-header-main">
+				<div class="container container-fluidd">
+					<div class="row custom-row row-mega-menu">
+						<div class="info-left d-flex ">
+							<div class="pxl-phone">
+								<a href="tel:22218002628">+222-1800-2628</a>
+							</div>
+							<div class="pxl-email">
+								<a href="mailto:blueskytechcompany@gmail.com">blueskytechcompany@gmail.com</a>
+							</div>
+						</div>
+						<div class="first-order">	
+							<span>Sign up for 10% off your first order: </span>
+							<a href="#">Sign Up</a>
+						</div>	
+						<div class="info-right d-flex">
+							 <div class="pxl-store">
+								<a href="#">Our Stores</a>
+							</div>
+							<div class="pxl-lang-curentcy">
+									<div class="pxl-lang">
+										<div class="pxl-langue-active">English</div>
+									</div>
+									<div class="pxl-currency-unit">
+										<div class="pxl-currency-active">United States (USD $)</div>
+									</div>
+								</div>
+						</div>
+					</div>
+					<div class="row custom-row row-menu">
+						<div class="site-branding">
+							<a class="logo-mobile" href="#" title="Mori"><img alt="logo-mobile" src="assets/images/Logo.png"></a>
+						</div>
+						<div id="menucon" class="site-navigation">	
+							<nav class="main-navigation">	
+								<ul class="primary-menu clearfix">	
+									<li><a href="#">Home</a></li>
+									<li><a href="#">Shop</a></li>
+									<li><a href="#">Product</a></li>
+									<li><a href="#">Page</a></li>
+									<li><a href="#">Blog</a></li>
+									<li><a class="item-menu-buy" href="#">Buy Umino!</a></li>
+								</ul>	
+							</nav>	
+						</div>	
+						<div class="site-header-right">
+							<div class="pxl-icon">
+								<a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+								<a href="#"><i class="fa-regular fa-user"></i></a>
+								<a href="#"><i class="fa-regular fa-clock"></i></a>
+								<a class="item-count" href="#"><i class="fa-regular fa-heart"></i><div class="wishlist-count h-count">5</div></a>
+								<a class="item-count" href="#">
+									<svg width="21" height="17" viewBox="0 0 21 17" fill="none" >
+										<path d="M14.3699 15.3408C14.1509 15.3408 13.941 15.2536 13.7862 15.0983C13.6314 14.9431 13.5444 14.7325 13.5444 14.5129H11.8936C11.8936 15.1716 12.1545 15.8033 12.6189 16.2691C13.0832 16.7348 13.7131 16.9965 14.3699 16.9965C15.0266 16.9965 15.6565 16.7348 16.1209 16.2691C16.5853 15.8033 16.8462 15.1716 16.8462 14.5129H15.1953C15.1953 14.7325 15.1083 14.9431 14.9535 15.0983C14.7987 15.2536 14.5888 15.3408 14.3699 15.3408Z" fill="#111111"/>
+										<path d="M8.5612 15.3408C8.34228 15.3408 8.13233 15.2536 7.97753 15.0983C7.82273 14.9431 7.73576 14.7325 7.73576 14.5129H6.07715C6.07715 14.8396 6.14129 15.163 6.26592 15.4647C6.39055 15.7665 6.57322 16.0407 6.8035 16.2716C7.03378 16.5026 7.30717 16.6858 7.60805 16.8108C7.90893 16.9358 8.23141 17.0001 8.55707 17.0001C8.88274 17.0001 9.20522 16.9358 9.5061 16.8108C9.80698 16.6858 10.0804 16.5026 10.3106 16.2716C10.5409 16.0407 10.7236 15.7665 10.8482 15.4647C10.9729 15.163 11.037 14.8396 11.037 14.5129H9.38612C9.38612 14.7324 9.29923 14.9429 9.14454 15.0981C8.98985 15.2534 8.78003 15.3406 8.5612 15.3408Z" fill="#111111"/>
+										<path d="M19.3299 1.64401C19.2849 1.63633 19.2393 1.63252 19.1937 1.63263H5.9867C5.76778 1.63263 5.55782 1.71985 5.40302 1.8751C5.24823 2.03035 5.16126 2.24092 5.16126 2.46047C5.16126 2.68003 5.24823 2.8906 5.40302 3.04585C5.55782 3.2011 5.76778 3.28832 5.9867 3.28832H18.2192L18.001 4.60149L16.8438 11.5668H6.07595L3.26946 4.60149L1.59537 0.482961C1.50684 0.289212 1.34721 0.13717 1.14972 0.0584856C0.952225 -0.020199 0.732083 -0.0194636 0.535118 0.0605389C0.338153 0.140541 0.179541 0.293646 0.0922992 0.487983C0.00505767 0.682319 -0.00409102 0.902913 0.0667575 1.10384L2.73963 7.68158L4.56385 12.5307C4.6985 12.9389 4.97657 13.2224 5.37794 13.2224H17.5428C17.7383 13.2225 17.9275 13.1531 18.0766 13.0264C18.2258 12.8997 18.3253 12.724 18.3574 12.5307L19.675 4.60149L20.0083 2.59655C20.0443 2.38002 19.993 2.15803 19.8658 1.9794C19.7386 1.80077 19.5458 1.68013 19.3299 1.64401Z" fill="#111111"/>
+									</svg>
+									<div class="wishlist-count h-count">5</div>
+								</a>
+							</div>
+						</div>
+					</div>		
+				</div>
+				<div id="menu-mobile" class="main-menu-mobile">
+					<span class="btn-nav-mobile open-menu" onclick="navOpen()"><span></span></span>
+				</div>
+			</div>
+		</div>
+	</header>	
+	<div class="site-slider">
+		<div class="slideshow-container">
+			<div class="mySlides fadee">
+				<img alt="img-slide1" src="assets/images/img-slide1.jpg">
+				<div class="pxl-content-slide text-center">
+					<div class="pxl-sup-title">Beautiful & Elegant</div>
+					<h5 class="pxl-title-slide">Premium Bedroom</h5>
+					<div class="pxl-description">Discount 50% On Products & Free Shipping.</div>
+					<div class="pxl-btn-slide">
+						<a class="btn-default" href="#">Shop Now</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="mySlides fadee">
+				<img alt="img-slide2" src="assets/images/img-slide2.jpg">
+				<div class="pxl-content-slide text-center">
+					<div class="pxl-sup-title">Beautiful & Elegant</div>
+					<h5 class="pxl-title-slide">Luxury Bedroom</h5>
+					<div class="pxl-description">Discount 50% On Products & Free Shipping.</div>
+					<div class="pxl-btn-slide">
+						<a class="btn-default" href="#">Shop Now</a>
+					</div>
+				</div>
+			</div>
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<!-- The dots/circles -->
+		<div class="item-dot">
+			<span class="dot" onclick="currentSlide(1)"></span>
+			<span class="dot" onclick="currentSlide(2)"></span>
+			<span class="dot" onclick="currentSlide(3)"></span>
+		</div>
+	</div>
+	<!-- Content Main -->
+	<main id="content" class="site-content">
+		<div class="content-inner">
+			<div class="container container-fluidd">
+				<div class="row row-custom">
+					<div id="primary" class="content-area col-12">
+						<div id="main" class="site-main">
+
+							<section class="pxl-content-main pxl-section-categoties">
+								<div class="pxl-heading-widget text-center">
+									<h2 class="pxl-heading">Top Categories</h2>
+									<div class="pxl-description">Our products are designed for everyone, environmentally friendly.</div>
+								</div>
+								<div class="pxl-image-categories-widget">
+									<div class="container container-fluidddd">
+										<div class="row row-custom text-center">
+											<div class="entry-image col-sm-6 col-md-4 col-xl-2">
+												<div class="pxl-img">
+													<img alt="img-cate1" src="assets/images/img-cate1.jpg">
+												</div>
+												<h4 class="pxl-heading">Free Shipping</h4>
+											</div>
+											<div class="entry-image col-sm-6 col-md-4 col-xl-2">
+												<div class="pxl-img">
+													<img alt="img-cate2" src="assets/images/img-cate2.jpg">
+												</div>
+												<h4 class="pxl-heading">Free Shipping</h4>
+											</div>
+											<div class="entry-image col-sm-6 col-md-4 col-xl-2">
+												<div class="pxl-img">
+													<img alt="img-cate3" src="assets/images/img-cate3.jpg">
+												</div>
+												<h4 class="pxl-heading">Free Shipping</h4>
+											</div>
+											<div class="entry-image col-sm-6 col-md-4 col-xl-2">
+												<div class="pxl-img">
+													<img alt="img-cate4" src="assets/images/img-cate4.jpg">
+												</div>
+												<h4 class="pxl-heading">Free Shipping</h4>
+											</div>
+											<div class="entry-image col-sm-6 col-md-4 col-xl-2">
+												<div class="pxl-img">
+													<img alt="img-cate5" src="assets/images/img-cate5.jpg">
+												</div>
+												<h4 class="pxl-heading">Free Shipping</h4>
+											</div>
+											<div class="entry-image col-sm-6 col-md-4 col-xl-2">
+												<div class="pxl-img">
+													<img alt="img-cate6" src="assets/images/img-cate6.jpg">
+												</div>
+												<h4 class="pxl-heading">Free Shipping</h4>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+
+							<section class="pxl-content-main pxl-section-product">
+								<div class="pxl-heading-widget text-center">
+									<h2 class="pxl-heading">Top Trending</h2>
+									<div class="pxl-description">Our products are designed for everyone, environmentally friendly.</div>
+								</div>
+								<div class="pxl-product-grid-widget">
+									<div class="container container-fluiddd">
+										<div class="row row-custom row1">
+											<div class="product-image col-sm-6 col-md-4 col-xl-3">
+												<div class="pxl-img">	
+													<img class="img-product" alt="img-product1" src="assets/images/img-product1.jpg">
+													<img class="img-product-hidden" alt="img-product11" src="assets/images/img-product-hidden1.jpg">
+													<a class="btn-add-to-card" href="#">Add to Cart</a>
+												</div>
+												<h2 class="pxl-heading-product">Form Chair Brass Base</h2>
+												<div class="pxl-start">
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+												</div>
+												<div class="pxl-product-price">$569.00</div>	
+											</div>
+											<div class="product-image col-sm-6 col-md-4 col-xl-3">
+												<div class="pxl-img">
+													<img class="img-product" alt="img-product2" src="assets/images/img-product2.jpg">
+													<img class="img-product-hidden" alt="img-product11" src="assets/images/img-product-hidden1.jpg">
+													<a class="btn-add-to-card" href="#">Add to Cart</a>
+													<span class="precent-sale">-50%</span>
+													<span class="pre-order">Pre-Order</span>
+												</div>
+												<h2 class="pxl-heading-product">Form Chair Brass Base</h2>
+												<div class="pxl-start">
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+												</div>
+												<div class="pxl-product-price">
+													<span class="price-update">$569.00</span>
+													<span class="price-sale">$169.00</span>
+												</div>	
+											</div>
+											<div class="product-image col-sm-6 col-md-4 col-xl-3">
+												<div class="pxl-img">
+													<img alt="img-product3" src="assets/images/img-product3.jpg">
+													<img class="img-product-hidden" alt="img-product11" src="assets/images/img-product-hidden1.jpg">
+													<a class="btn-add-to-card" href="#">Add to Cart</a>
+												</div>
+												<h2 class="pxl-heading-product">Form Chair Brass Base</h2>
+												<div class="pxl-start">
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+												</div>
+												<div class="pxl-product-price">$569.00</div>	
+											</div>
+											<div class="product-image col-sm-6 col-md-4 col-xl-3">
+												<div class="pxl-img">
+													<img alt="img-product4" src="assets/images/img-product4.jpg">
+													<img class="img-product-hidden" alt="img-product11" src="assets/images/img-product-hidden1.jpg">
+													<a class="btn-add-to-card" href="#">Add to Cart</a>
+												</div>
+												<h2 class="pxl-heading-product">Form Chair Brass Base</h2>
+												<div class="pxl-start">
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+												</div>
+												<div class="pxl-product-price">$569.00</div>	
+											</div>
+										<!-- </div> -->
+
+										<!-- <div class="row row-custom row2"> -->
+											<div class="product-image col-sm-6 col-md-4 col-xl-3">
+												<div class="pxl-img">	
+													<img alt="img-product5" src="assets/images/img-product5.jpg">
+													<img class="img-product-hidden" alt="img-product11" src="assets/images/img-product-hidden1.jpg">
+													<a class="btn-add-to-card" href="#">Add to Cart</a>
+												</div>
+												<h2 class="pxl-heading-product">Form Chair Brass Base</h2>
+												<div class="pxl-start">
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+												</div>
+												<div class="pxl-product-price">$569.00</div>	
+											</div>
+											<div class="product-image col-sm-6 col-md-4 col-xl-3">
+												<div class="pxl-img">
+													<img alt="img-product6" src="assets/images/img-product6.jpg">
+													<img class="img-product-hidden" alt="img-product11" src="assets/images/img-product-hidden1.jpg">
+													<a class="btn-add-to-card" href="#">Add to Cart</a>
+												</div>
+												<h2 class="pxl-heading-product">Form Chair Brass Base</h2>
+												<div class="pxl-start">
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+												</div>
+												<div class="pxl-product-price">$569.00</div>	
+											</div>
+											<div class="product-image col-sm-6 col-md-4 col-xl-3">
+												<div class="pxl-img">
+													<img alt="img-product7" src="assets/images/img-product7.jpg">
+													<img class="img-product-hidden" alt="img-product11" src="assets/images/img-product-hidden1.jpg">
+													<a class="btn-add-to-card" href="#">Add to Cart</a>
+												</div>
+												<h2 class="pxl-heading-product">Form Chair Brass Base</h2>
+												<div class="pxl-start">
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+												</div>
+												<div class="pxl-product-price">$569.00</div>	
+											</div>
+											<div class="product-image col-sm-6 col-md-4 col-xl-3">
+												<div class="pxl-img">
+													<img alt="img-product8" src="assets/images/img-product8.jpg">
+													<img class="img-product-hidden" alt="img-product11" src="assets/images/img-product-hidden1.jpg">
+													<a class="btn-add-to-card" href="#">Add to Cart</a>
+													<span class="precent-sale">-50%</span>
+													<span class="pre-order">Pre-Order</span>
+												</div>
+												<h2 class="pxl-heading-product">Form Chair Brass Base</h2>
+												<div class="pxl-start">
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+													<i class="fa-solid fa-star"></i>
+												</div>
+												<div class="pxl-product-price">
+													<span class="price-update">$569.00</span>
+													<span class="price-sale">$169.00</span>
+												</div>	
+											</div>
+										</div>
+										<div class="pxl-btn-loadmore-product">
+											<a class="btn-main btn-out-line btn-load-more " href="#">Load More</a>
+										</div>
+									</div>
+								</div>
+							</section>
+
+							<section class="pxl-content-main bg-image pxl-section-bgr-box" style="background-image: url('assets/images/bgr-section1.jpg');">
+								<div class="pxl-about-widget">
+									<div class="container container-fluid">
+										<div class="row row-custom">
+											<div class="pxl-about-box text-center">
+												<div class="pxl-sub-heading">LIMITED EDITION</div>
+												<h5 class="pxl-heading">Unique Style</h5>
+												<div class="pxl-description lh-28">The watch is carefully designed with quality materials, such as the domed sapphire crystal, and the meticulous level of detail - from the dial to the delicate gold hour markers.</div>	
+												<a class="pxl-btn-about btn-main" href="#">Discover Now</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+
+							<section class="pxl-content-main pxl-section-contact">
+								<div class="pxl-fancy-box-widget">
+									<div class="container container-fluid">
+										<div class="row row-custom">
+											<div class="entry-icon text-center col-md-6 col-xl-4">
+												<div class="pxl-icon">
+													<img alt="icon-group" src="assets/images/icon-ship.png">
+												</div>
+												<h4 class="pxl-heading">Free Shipping</h4>
+												<div class="pxl-description">Get complimentary ground shipping on every order. Don't love it? Send it back, on us.</div>	
+											</div>
+											<div class="entry-icon text-center col-md-6 col-xl-4">
+												<div class="pxl-icon">
+													<img alt="icon-check" src="assets/images/icon-return.png">
+												</div>
+												<h4 class="pxl-heading">Free Shipping</h4>
+												<div class="pxl-description">Free returns within 10 days, please make sure the items are in undamaged condition.</div>
+											</div>
+											<div class="entry-icon text-center col-md-6 col-xl-4">
+												<div class="pxl-icon">
+													<img alt="icon-chat" src="assets/images/icon-chat.png">
+												</div>
+												<h4 class="pxl-heading">Free Shipping</h4>
+												<div class="pxl-description">We support customers 24/7, send questions we will solve for you immediately.</div>
+											</div>
+							
+										</div>
+									</div>
+								</div>
+							</section>
+
+							<section class="pxl-content-main pxl-section-follow-us">
+								<div class="pxl-heading-widget text-center border-main">
+									<h2 class="pxl-heading">Follow Us</h2>
+									<div class="pxl-description">Inspire and let yourself be inspired, from one unique fashion to another.</div>
+								</div>
+								<div class="pxl-image-insta-widget">
+									<div class="container container-fluiddd">
+										<div class="row row-custom">
+											<div class="entry-image col-sm-6 col-md-4 col-xl-2">
+												<div class="pxl-img">
+													<img alt="img-insta1" src="assets/images/img-insta1.jpg">
+													<span class="icon-cart">
+														<img alt="img-icon-cart" src="assets/images/icon-cart.png">
+													</span>
+												</div>
+											</div>
+											<div class="entry-image col-sm-6 col-md-4 col-xl-2">
+												<div class="pxl-img">
+													<img alt="img-insta2" src="assets/images/img-insta2.jpg">
+													<span class="icon-cart">
+														<img alt="img-icon-cart" src="assets/images/icon-cart.png">
+													</span>
+												</div>
+											</div>
+											<div class="entry-image col-sm-6 col-md-4 col-xl-2">
+												<div class="pxl-img">
+													<img alt="img-insta3" src="assets/images/img-insta3.jpg">
+													<span class="icon-cart">
+														<img alt="img-icon-cart" src="assets/images/icon-cart.png">
+													</span>
+												</div>
+											</div>
+											<div class="entry-image col-sm-6 col-md-4 col-xl-2">
+												<div class="pxl-img">
+													<img alt="img-insta4" src="assets/images/img-insta4.jpg">
+													<span class="icon-cart">
+														<img alt="img-icon-cart" src="assets/images/icon-cart.png">
+													</span>
+												</div>
+											</div>
+											<div class="entry-image col-sm-6 col-md-4 col-xl-2">
+												<div class="pxl-img">
+													<img alt="img-insta5" src="assets/images/img-insta5.jpg">
+													<span class="icon-cart">
+														<img alt="img-icon-cart" src="assets/images/icon-cart.png">
+													</span>
+												</div>
+											</div>
+											<div class="entry-image col-sm-6 col-md-4 col-xl-2">
+												<div class="pxl-img">
+													<img alt="img-insta6" src="assets/images/img-insta6.jpg">
+													<span class="icon-cart">
+														<img alt="img-icon-cart" src="assets/images/icon-cart.png">
+													</span>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</section>
+
+						</div>
+					</div>
+				</div>
+			</div>			
+		</div>
+	</main>
+
+	<!-- Footer -->
+ 	<footer id="colophon" class="site-footer-custom">
+		<div class="pxl-footer-middle">
+			<div class="container container-fluid">
+				<div class="row row-custom">
+					<div class="column-1 col-md-6 col-xl-4">
+						<div class="pxl-image-logo">
+							<img alt="logo-footer" src="assets/images/Logo.png" class="attachment-full">
+						</div>
+						<div class="pxl-address">
+							<p>268 St, South New York/NY 98944, United States</p>
+						</div>
+						<div class="pxl-phone">
+							<a href="tel:22218002628">+222-1800-2628</a>
+						</div>
+						<div class="pxl-email">
+							<a href="mailto:blueskytechcompany@gmail.com">blueskytechcompany@gmail.com</a>
+						</div>
+						<div class="pxl-icon">
+							<a href="#"><i aria-hidden="true" class="fa-brands fa-facebook-f"></i></a>
+							<a href="#"><i class="fa-brands fa-twitter"></i></a>
+							<a href="#"><i class="fa-brands fa-pinterest"></i></a>
+							<a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+							<a href="#"><i class="fa-brands fa-youtube"></i></a>
+							<a href="#"><i class="fa-brands fa-tiktok"></i></a>
+						</div>
+					</div>
+					<div class="column-2 col-md-6 col-xl-2">
+						<h3 class="pxl-heading-footer">Customer Service</h3>
+						<ul class="pxl-list-menu">
+							<li><a href="#">Privacy Policy</a></li>
+							<li><a href="#">Refund Policy</a></li>
+							<li><a href="#">Shipping & Return</a></li>
+							<li><a href="#">Term & Conditions</a></li>
+							<li><a href="#">Advanced Search</a></li>
+							<li><a href="#">Store Locations</a></li>
+						</ul>
+					</div>	
+
+					<div class="column-3 col-md-6 col-xl-2">
+						<h3 class="pxl-heading-footer">Shop By Categories</h3>
+						<ul class="pxl-list-menu">
+							<li><a href="#">Smartphone</a></li>
+							<li><a href="#">Headphones</a></li>
+							<li><a href="#">Computer & Desktop</a></li>
+							<li><a href="#">Cameras & Photos</a></li>
+							<li><a href="#">Laptop & Ipad</a></li>
+						</ul>
+					</div>	
+
+					<div class="column-4 col-md-6 col-xl-4">
+						<h3 class="pxl-heading-footer">Sign Up to Newsletter</h3>
+						<div class="pxl-description">
+							<p>Enter your email address to get $10 off your first order and free shipping. Updates information on Sales and Offers.</p>
+						</div>
+						<div class="pxl-newsletter">
+							<form class="tnp-form" action="#" method="post" onsubmit="return newsletter_check(this)"> 
+								<input type="hidden" name="nr" value="widget-minimal">
+								<div class="tnp-field tnp-field-email"> 
+									<input class="tnp-email" type="email" required="" name="ne" value="" placeholder="Enter your email..." style="">
+								</div>
+								<div class="tnp-field tnp-field-button"> 
+									<input class="tnp-button" type="submit" value="Subscribe">
+								</div>
+							</form>
+						</div>
+					</div>	
+
+				</div>			
+			</div>
+		</div>
+		<div class="pxl-footer--bottom">
+			<div class="container container-fluid">
+				<div class="row-custom">
+					<div class="pxl-footer-bottom-content d-flex align-center">
+						<div class="pxl-lang-curentcy">
+							<div class="pxl-lang">
+								<div class="pxl-langue-active">English</div>
+							</div>
+							<div class="pxl-currency-unit">
+								<div class="pxl-currency-active">United States (USD $)</div>
+							</div>
+						</div>
+						<div class="pxl-footer-copyright">
+							<p>
+								© 2023 Umino Store. All Rights Reserved
+							</p>
+						</div>
+						<div class="pxl-footer-payment">
+							<div class="img-payment img-payment-1 ">
+								<img alt="payment" src="assets/images/payment1.jpg">
+							</div>
+							<div class="img-payment img-payment-2 ">
+								<img alt="payment" src="assets/images/payment2.jpg">
+							</div>
+							<div class="img-payment img-payment-3 ">
+								<img alt="payment" src="assets/images/payment3.jpg">
+							</div>
+							<div class="img-payment img-payment-4 ">
+								<img alt="payment" src="assets/images/payment4.jpg">
+							</div>
+							<div class="img-payment img-payment-5 ">
+								<img alt="payment" src="assets/images/payment5.jpg">
+							</div>
+							<div class="img-payment img-payment-6 ">
+								<img alt="payment" src="assets/images/payment6.jpg">
+							</div>
+							<div class="img-payment img-payment-7 ">
+								<img alt="payment" src="assets/images/payment7.jpg">
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<a href="#" class="scroll-top on">
+		<i class="zmdi zmdi-long-arrow-up"></i>
+	</a>
+	<script type="text/javascript" src="assets/js/main.js"></script>
+	<script type="text/javascript" src="assets/js/slider.js"></script>
+</body>
+</html>
